@@ -20,6 +20,7 @@ for position in positions:
         df = df.rename({
             'ATT': 'PASS_ATT',
             'YDS': 'PASS_YD',
+            'TDS': 'PASS_TD',
             'ATT.1': 'RUSH_ATT',
             'YDS.1': 'RUSH_YD',
             'TDS.1': 'RUSH_TD'
