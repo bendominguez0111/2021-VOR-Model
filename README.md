@@ -1,0 +1,5 @@
+# Fantasy Football Projections for 2021
+
+In this repo, you'll find fantasy football projections for the 2021 season for use in your VOR models or whatever fantasy football project you're working on. 
+
+If you want to update the projections manually yourself: clone this repo, create a Python virtual environment, install the requirements found in `requirements.txt`1 using `pip install -r requirements.txt`. Head over to this FantasyPros link and download and replace each position CSV file in the `data` folder. Unfortanently, scraping the page does not work. Once you download and replace the position-specific projections, activate the virtual environment and run python `compile.py`. This will compile all projections in to a single `all_compiled.csv` file in the `data` folder. You can use this CSV file like you did with 2020 data in the VOR section of the course. For ADP data, head to this Fantasy Pros link. This data is scrapable with bs4.
